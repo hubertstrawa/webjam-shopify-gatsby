@@ -13,8 +13,6 @@ export function CartContents() {
     updateLineItem({ quantity, variantId });
   };
 
-  console.log(checkout.lineItems.length)
-
   return (
     <section>
       <h1>Your cart</h1>
