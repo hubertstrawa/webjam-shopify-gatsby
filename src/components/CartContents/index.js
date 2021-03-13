@@ -52,13 +52,13 @@ export function CartContents() {
           </div>
         </CartFooter>
       )}
-      {checkout.lineItems.length === 0 && <h4>You cart is empty.</h4>}
+      {checkout?.lineItems.length === 0 && <h4>You cart is empty.</h4>}
       <Footer>
         <div>
           <Button onClick={() => navigate(-1)}>Continue shopping</Button>
         </div>
         <div>
-          {!!checkout?.webUrl && checkout.lineItems.length > 0 && (
+          {!!checkout?.webUrl && checkout?.lineItems.length > 0 && (
             <Button
               onClick={() => {
                 window.location.href = checkout.webUrl;
