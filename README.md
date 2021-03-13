@@ -1,4 +1,4 @@
-# Gatsby Shopify starter
+# Webjam Test Store - Gatsby & Shopify
 
 **Getting started**
 
