@@ -6,3 +6,13 @@ export const LayoutWrapper = styled.div`
   box-sizing: border-box;
   padding: 0 20px 40px 20px;
 `
+
+export const Footer = styled.footer`
+  text-align: center;
+  margin: 50px 0 30px 0;
+  >a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+  }
+`
